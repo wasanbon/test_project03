@@ -1,20 +1,20 @@
 <?xml version="1.0" ?>
-<rts:RtsProfile rts:abstract="RT System created by rtcryo." rts:creationDate="2014-07-14T13:57:28" rts:id="RTSystem :Sugar Sweet Robotics.DefaultSystem01.1.0" rts:updateDate="2014-07-14T13:57:28" rts:version="0.2" xmlns:rts="http://www.openrtp.org/namespaces/rts" xmlns:rtsExt="http://www.openrtp.org/namespaces/rts_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<rts:RtsProfile rts:abstract="RT System created by rtcryo." rts:creationDate="2014-07-14T14:09:16" rts:id="RTSystem :Sugar Sweet Robotics.DefaultSystem01.1.0" rts:updateDate="2014-07-14T14:09:16" rts:version="0.2" xmlns:rts="http://www.openrtp.org/namespaces/rts" xmlns:rtsExt="http://www.openrtp.org/namespaces/rts_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <rts:Components rts:compositeType="None" rts:id="RTC:ssr:Tes:TestOut:1.0.0" rts:instanceName="TestOut0" rts:isRequired="true" rts:pathUri="localhost/TestOut0.rtc" rtsExt:visible="true">
         <rts:DataPorts rts:name="out" rtsExt:visible="true"/>
         <rts:ConfigurationSets rts:id="default"/>
         <rts:ExecutionContexts rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0"/>
         <rtsExt:Location rtsExt:direction="DOWN" rtsExt:height="0" rtsExt:width="0" rtsExt:x="0" rtsExt:y="0"/>
-        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e300000000001000000000000008a000000000102000000000f3139322e3136382e3138302e323800000afc000000000031afabcb0000000020333b766e00000001000000000000000100000008526f6f74504f410000000008000000100000000014000000000000020000000100000020000000000001000100000002050100010001002000010109000000010001010000000026000000020002"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e300000000001000000000000008a000000000102000000000f3139322e3136382e3138302e323800000afc000000000031afabcb00000000203346434800000001000000000000000100000008526f6f74504f410000000008000000100000000014000000000000020000000100000020000000000001000100000002050100010001002000010109000000010001010000000026000000020002"/>
     </rts:Components>
     <rts:Components rts:compositeType="None" rts:id="RTC:ssr:Tes:TestIn:1.0.0" rts:instanceName="TestIn0" rts:isRequired="true" rts:pathUri="localhost/TestIn0.rtc" rtsExt:visible="true">
         <rts:DataPorts rts:name="in" rtsExt:visible="true"/>
         <rts:ConfigurationSets rts:id="default"/>
         <rts:ExecutionContexts rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0"/>
         <rtsExt:Location rtsExt:direction="DOWN" rtsExt:height="0" rtsExt:width="0" rtsExt:x="0" rtsExt:y="0"/>
-        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e300000000001000000000000008a000000000102000000000f3139322e3136382e3138302e323800000afc000000000031afabcb0000000020333b766e00000001000000000000000100000008526f6f74504f4100000000080000000c0000000014000000000000020000000100000020000000000001000100000002050100010001002000010109000000010001010000000026000000020002"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e300000000001000000000000008a000000000102000000000f3139322e3136382e3138302e323800000afc000000000031afabcb00000000203346434800000001000000000000000100000008526f6f74504f4100000000080000000c0000000014000000000000020000000100000020000000000001000100000002050100010001002000010109000000010001010000000026000000020002"/>
     </rts:Components>
-    <rts:DataPortConnectors rts:connectorId="1db84488-c268-42e8-a56b-14944c512797" rts:dataType="IDL:RTC/TimedLong:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="inout" rts:pushInterval="0.0" rts:subscriptionType="new" rtsExt:visible="true">
+    <rts:DataPortConnectors rts:connectorId="8bc3e7f9-4f40-4168-ab58-d0de883e2750" rts:dataType="IDL:RTC/TimedLong:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="inout" rts:pushInterval="0.0" rts:subscriptionType="new" rtsExt:visible="true">
         <rts:sourceDataPort rts:componentId="RTC:ssr:Tes:TestOut:1.0.0" rts:instanceName="TestOut0" rts:portName="TestOut0.out">
             <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/TestOut0.rtc"/>
         </rts:sourceDataPort>
