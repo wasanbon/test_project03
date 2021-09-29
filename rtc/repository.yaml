@@ -1,18 +1,10 @@
-TestIn:
-  description: ''
-  git: https://github.com/sugarsweetrobotics/TestIn_java.git
-  hash: e024503a8245157168260ea5bd7005f106043356
 TestIn_java:
   description: Test In Component
-  git: https://github.com/sugarsweetrobotics/TestIn_java.git
-  hash: 129adf3a558dd36302840367f91dd496b495df39
+  git: https://github.com/wasanbon/TestIn_java.git
+  hash: 790fe1e4e6b6e5e51353e470044be8014ff7ba56
   repo_name: TestIn_java
-TestOut:
-  description: ''
-  git: https://github.com/sugarsweetrobotics/TestOut_java.git
-  hash: f18f30b0a13945f0043289d5056ee71be6f2e471
 TestOut_java:
-  description: ModuleDescription
-  git: https://github.com/sugarsweetrobotics/TestOut_java.git
-  hash: 69a49f0a7f487feb77e4ce09a3c4d801975b142e
+  description: Test Out Component
+  git: https://github.com/wasanbon/TestOut_java.git
+  hash: 1b3c7ecf6946eea7b5850eca17f9428dc9bf0ab9
   repo_name: TestOut_java
